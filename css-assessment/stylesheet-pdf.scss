@@ -1,0 +1,217 @@
+@page {
+    size: A4;
+    margin-top: 1.5cm;
+    margin-left: 0cm;
+    margin-right: 0cm;
+  }
+  
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  .heading{
+    padding-left: 2.5em;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+  }
+  
+  .heading__title {
+    color: #0074BC;
+    margin-right: 8px;
+    line-height: 1.5rem;
+    font-size: 1.8rem;
+    font-family: 'Muli';
+    font-weight: 700;
+    word-spacing: -5px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+  }
+  
+  .heading__title-text {
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 2.2rem;
+  }
+  
+  .introduction-container {
+    padding-top: 10px;
+  }
+  
+  .splash {
+    margin-bottom: -10px;
+    padding: 0;
+  }
+  
+  .earth-photo {
+    border-left: 90px solid #0074BC;
+    width: 8.15in;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .caption-container {
+    background-color: #EEEAE0;
+    width: auto;
+    padding-top:1.5rem;
+    padding-bottom: 2rem;
+    padding-left: 7em;
+    padding-right: 10em;
+    font-family: 'Muli';
+    font-weight: 500;
+    font-size: 13px;
+    justify-content: center;
+  }
+  
+  .caption__label, .caption__number {
+    color: #C31427;
+    font-weight: 700
+  }
+  
+  .caption__number {
+    padding-right: 5px;
+    font-weight: 700
+  }
+  
+  .caption {
+  margin-right: 10em;
+  }
+  
+  .chapter-outline__container {
+    background: #0074BC;
+    font-family: 'IBM Plex Sans';
+    font-size: .9rem;
+    font-weight: 500;
+    width: 1.8in;
+    height: 10rem;
+    margin-top: 15px;
+    margin-left: .5rem;
+    color: white;
+    text-decoration: none;
+    float: right;
+    padding-top: .3rem;
+    padding-left: .8rem;
+    padding-right: .3rem;
+  }
+  
+  .chapter-outline__title {
+    font-family: 'IBM Plex Sans';
+    letter-spacing: -1px;
+    font-size: .9rem;
+    margin-top: .8rem;
+    line-height: 1.5rem;
+    font-weight: 700
+  }
+  
+  .chapter-outline__divider {
+    margin-top: -10px;
+    position: absolute;
+    width: 100%;
+    float: right;
+    border: 1px solid white;
+  }
+  
+  .chapter-outline__text {
+    color: white;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-decoration: none;
+    width: 70%;
+    padding-bottom: 5px;
+    display: inline-block;
+  }
+  
+  .chapter-outline__number {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    float: left;
+    padding-right: 5px
+  }
+  
+  .intro-body {
+    padding-top: 15px
+  }
+  
+  .intro-text__container {
+    display: block;
+    width: 63%;
+    margin-top: 1rem;
+    margin-bottom: .7rem;
+    margin-left: 9em;
+    letter-spacing: -.1px;
+    text-align: left;
+    font-size: 10px;
+    transform: scale(1, 1.2)
+  }
+  
+  .text-title {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-right: 5px;
+  }
+  
+  .text-title__container {
+    display: inline-block;
+    margin-top: -8px;
+    margin-bottom: -10px;
+  }
+  
+  .intro-text {
+    font-size: 12px;
+  }
+  
+  .sob__content-module{
+    margin-left: 5.75em;
+    padding-top: 40px;
+  }
+  
+  .sob__number {
+    color: #0074BC;
+    font-family: 'Muli';
+    font-size: 1.3rem;
+    font-weight: 400
+  } 
+  
+  .sob__title {
+    color: #0074BC;
+    font-family: Muli;
+    letter-spacing: -1px;
+    font-size: 1.3rem;
+    font-weight: 400
+  }
+  
+  .sob__learning-objectives {
+    color: #0074BC;
+    font-family: 'Muli';
+    font-weight: 700;
+    letter-spacing: -1px;
+    font-size: 1rem;
+    margin-top: -15px;
+  }
+  
+  .sob__bullets-precursor {
+    color: #0074BC;
+    font-style: italic;
+    font-family: 'Muli';
+    letter-spacing: -1px;
+    font-size: 1rem;
+    margin-top: -18px;
+  }
+  
+  .sob__bullets {
+    margin-left: 25px;
+    font-family: 'Muli';
+    letter-spacing: -1px;
+    font-size: .9rem;
+    margin-top: -15px;
+  }
+  
+  li::marker {
+    color: #0074BC;
+  }
